@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.13">
   <diagram name="Página-1" id="r9egLEUwNlH5UQ3rOkwX">
-    <mxGraphModel dx="830" dy="458" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#E6E6E6" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#FFFFFF,#D75496)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,6 +51,83 @@
           <mxGeometry x="-0.2458" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-19" value="Backup &amp;amp; Restore" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="127" y="251" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-20" value="On Premise&lt;div&gt;Data Center (Primary Systems)&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.corporate_data_center;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="204" y="576" width="46.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-21" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="337" y="511" width="214" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-22" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloud_2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="318" y="492" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="264" y="607.75" as="sourcePoint" />
+            <mxPoint x="323" y="607.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-24" value="Data Mirroring" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="242" y="580" width="94" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-28" value="EC2 Instance&lt;div&gt;(Not Running)&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="472" y="572" width="34" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-29" value="RDS Database" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="382" y="576" width="32" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-32" value="Pilot Light" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="133" y="496" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-34" value="&lt;span&gt;Master DB&lt;/span&gt;" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="199.75" y="681" width="55" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-35" value="On Premise&lt;div&gt;Data Center (Primary Systems)&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.corporate_data_center;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="198" y="839" width="46.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-36" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="331" y="774" width="214" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="258" y="870.75" as="sourcePoint" />
+            <mxPoint x="317" y="870.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-38" value="Data Mirroring" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="236" y="843" width="94" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_wlLXKTj0vbCykMoeiWe-39" target="_wlLXKTj0vbCykMoeiWe-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-51" value="Using" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_wlLXKTj0vbCykMoeiWe-50">
+          <mxGeometry x="0.0065" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-39" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="468" y="858" width="23" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-40" value="RDS Database" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="363" y="853" width="32" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-41" value="Warm Stand By" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="127" y="759" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-42" value="&lt;span&gt;Master DB&lt;/span&gt;" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="193.75" y="944" width="55" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-43" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.auto_scaling2;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="489" y="786" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-44" value="EC2 Instance&lt;div&gt;Running&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="478" y="868" width="23" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="_wlLXKTj0vbCykMoeiWe-52" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Load Balancing&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;+ Autoscalation Group&lt;/font&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_load_balancing;" vertex="1" parent="1">
+          <mxGeometry x="442" y="786" width="32" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
